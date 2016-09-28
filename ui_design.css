@@ -1,0 +1,50 @@
+body, html {
+    width:100%;
+    height: 100%;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.navbar-inverse {
+  background-color: rgba(34, 34, 34, 0);
+  border-color: #dff0d8;
+  padding: 10px;
+}
+#head {
+    width:100%;
+    background-image: url(img/girl.png);
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #eee;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #eee;
+}
+#mobileAds{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+#solutions{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-image: url(img/d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#solutions .container .row .col-sm-2{
+    height:120px;
+    border:3px solid orangered;
+    display: flex;
+    align-items: center;
+    color: orangered;
+}
+
+
