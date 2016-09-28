@@ -41,10 +41,20 @@ body, html {
 }
 #solutions .container .row .col-sm-2{
     height:120px;
+    background-color: white;
     border:3px solid orangered;
     display: flex;
     align-items: center;
     color: orangered;
 }
+#solutions .container .row .col-sm-2:hover{
+    color:white;
+    background-color: orangered;
+    cursor: pointer;
+    transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+}
+
+
 
 
