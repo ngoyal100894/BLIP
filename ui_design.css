@@ -144,7 +144,7 @@ New Landing Css
 }
 #section04{
      width:100%;
-    background-color: #f7f7f7;
+    background-color: #e6e9ed;
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
@@ -161,19 +161,19 @@ New Landing Css
     padding-top: 20%;
 }
 .glyphicon.glyphicon-bullhorn {
-    font-size: 4em;
-    color: #f7f7f7;
+    font-size: 3.5em;
+    color: #e6e9ed;
     border-radius: 100%;
    
-    padding: 8%;
+    padding: 10%;
     background-color: #2f397c;
 }
 .glyphicon.glyphicon-usd {
-    font-size: 4em;
-    color: #f7f7f7;
+    font-size: 3.5em;
+    color: #e6e9ed;
     border-radius: 100%;
    
-    padding: 8%;
+    padding: 10%;
     background-color: #2f397c;
 }
 .section04_subheadings{
@@ -182,7 +182,7 @@ New Landing Css
     text-align: center;
     font-size: 1.3em;
 }
- h3::after {
+ h3.section04_subheadings::after {
     content: "";
     display: block;
     position: relative;
@@ -258,9 +258,113 @@ New Landing Css
 
 #section05{
      width:100%;
-    background-color: blue;
+    background-color: white;
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+}
+.category_cards{
+    height: 90%; 
+    padding: 10% 5% 10% 5% ;
+    background-color: white;
+    overflow: hidden;
+
+}
+.category_cards:hover { 
+    background-color: #e6e9ed;
+    padding: 3% 5% 3% 5% ;
+
+}
+
+
+.glyphicon.glyphicon-user {
+    font-size: 3.5em;
+    color: white;
+    border-radius: 100%;
+    border: 4px solid #203e77;
+   
+    padding: 20%;
+    background-color: #2d58a8;
+}
+.section05_icon_div{
+    text-align: center;
+    
+}
+.section05_subheadings{
+    font-size: 1em;
+    color: #212020;
+    text-align: center;
+    font-size: 1.3em;
+}
+h3.section05_subheadings::after {
+    content: "";
+    display: none;
+    position: relative;
+    height: 1.5px;
+    width: 90%;
+    background-color: #212020;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+ }
+ .section05_paragraph{
+    font-size: 1.1em;
+    padding-top: 5%;
+    text-align: justify;
+    display: none;
+    overflow: hidden;
+}
+.category_cards:hover .section05_paragraph{
+    display: block;
+    overflow: hidden;
+
+}
+.category_cards:hover h3.section05_subheadings::after{
+    display: block;
+}
+#section06{
+    width:100%;
+    background-color: red;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.glyphicon.glyphicon-user.card1 {
+    font-size: 3.5em;
+    color: white;
+    border-radius: 100%;
+    border: 4px solid #b20000;
+   
+    padding: 20%;
+    background-color: #e50404;
+}
+.glyphicon.glyphicon-user.card2 {
+    font-size: 3.5em;
+    color: white;
+    border-radius: 100%;
+    border: 4px solid #203e77;
+   
+    padding: 20%;
+    background-color: #2d58a8;
+}
+.glyphicon.glyphicon-user.card3 {
+    font-size: 3.5em;
+    color: white;
+    border-radius: 100%;
+    border: 4px solid #a34108;
+   
+    padding: 20%;
+    background-color: #e55909;
+}
+.glyphicon.glyphicon-user.card4 {
+    font-size: 3.5em;
+    color: white;
+    border-radius: 100%;
+    border: 4px solid #067030;
+   
+    padding: 20%;
+    background-color: #0d9b46;
 }
