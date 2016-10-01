@@ -145,22 +145,30 @@ New Landing Css
 #section04{
      width:100%;
     background-color: #f7f7f7;
-    height: 90%;
+    height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
 }
 .section04_div{
     
-    height: 80%;
-    border: solid 1px black;
+    height: 90%;
+    
     padding: 0% 5% 0% 5%; 
 }
 .section04_icon_div{
     text-align: center;
-    padding-top: 5%;
+    padding-top: 20%;
 }
 .glyphicon.glyphicon-bullhorn {
+    font-size: 4em;
+    color: #f7f7f7;
+    border-radius: 100%;
+   
+    padding: 8%;
+    background-color: #2f397c;
+}
+.glyphicon.glyphicon-usd {
     font-size: 4em;
     color: #f7f7f7;
     border-radius: 100%;
@@ -228,6 +236,7 @@ New Landing Css
     margin: 10% 5%;
 }
 
+/*
 .carousel-inner .active.left { 
     left: -25%; 
 }
@@ -244,4 +253,14 @@ New Landing Css
 .carousel-control.left,.carousel-control.right {
     margin-left:15px;
     background-image:none;
+}
+*/
+
+#section05{
+     width:100%;
+    background-color: blue;
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
