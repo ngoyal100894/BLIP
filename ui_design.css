@@ -315,6 +315,7 @@ h3.section05_subheadings::after {
     text-align: justify;
     display: none;
     overflow: hidden;
+    margin: 0% -10% 0% -10%;
 }
 .category_cards:hover .section05_paragraph{
     display: block;
