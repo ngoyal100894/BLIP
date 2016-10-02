@@ -229,11 +229,13 @@ New Landing Css
     border-radius: 1%;
 }
 .logo_circle{
-    padding-top: 15%;
+    padding: 20% 15% 20% 15%;
     border-radius: 100%;
     color: black;
     background-color: white;
-    margin: 10% 5%;
+   
+    position: relative;
+    display: inline-block;
 }
 
 /*
@@ -368,4 +370,25 @@ h3.section05_subheadings::after {
    
     padding: 20%;
     background-color: #0d9b46;
+}
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-inner .item {
+    font-size:10px;
+    color:#0404B4;
+    }
+
+.carousel-control {
+    z-index: 10;
+    top: 2%;
+    width: 30px; // no more gray thing
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+.carousel-control.left,
+.carousel-control.right { background: none }
+// change it according to your needs
+.carousel-control.left { left: -10px; }
+.carousel-control.right { right: -10px; }
+.padding{
+    padding: 0px 5px 0px 5px;
 }
