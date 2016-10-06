@@ -113,6 +113,30 @@ New Landing Css
 .demo a:hover {
     opacity: .5;
 }
+
+
+
+@media only screen and (max-device-width: 480px) {
+    #head_newlanding{
+        padding-top: 45%;
+    }
+    .section02_div_text{
+        padding-top: 28% !important;
+    }
+    .section04_div{
+        padding: 0% 8% !important;
+    }
+    .section04_paragraph{
+        margin-bottom: 30px;
+    }
+    .carousel_row{
+        margin: 12% -9% 0% -9% !important;
+    }
+}
+
+
+
+
 #section02{
      width:100%;
     background-image: url(img/minimalistic_desktop_background4.png);
@@ -143,7 +167,7 @@ New Landing Css
     background-size: cover;
 }
 #section04{
-     width:100%;
+    width:100%;
     background-color: #e6e9ed;
     height: 80%;
     background-position: center;
@@ -152,9 +176,11 @@ New Landing Css
 }
 .section04_div{
     
-    height: 90%;
+    height: 100%;
+    background-color: #e6e9ed;
     
     padding: 0% 5% 0% 5%; 
+
 }
 .section04_icon_div{
     text-align: center;
@@ -227,6 +253,10 @@ New Landing Css
     -webkit-border-radius: 1%;
     -moz-border-radius: 1%;
     border-radius: 1%;
+}
+.carousel_row{
+    margin: 12% -30% 0% -30%;
+
 }
 .logo_circle{
     padding: 20% 15% 20% 15%;
