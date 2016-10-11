@@ -39,8 +39,7 @@
     </nav>
     
     
-    <div id="head"></div>
-    
+    <div id="head" class="parallax-window" data-parallax="scroll" data-image-src="img/girl.png"></div>
     
     <div id="mobileAds" class="container bg-3 text-center">
         <h1 class="margin">Mobile Ads That Deliver True Value</h1><br><br><br>
@@ -184,7 +183,7 @@
     </div>
     
     
-    <div id="partners" class="container-fluid text-center">
+    <div id="partners" class="container-fluid text-center"> 
         <h3 class="margin"><b>BLIP PARTNERS</b></h3>
         <div class="row">
             <div class="col-sm-2 col-sm-offset-5">
@@ -192,7 +191,7 @@
                 </div>
             </div>
         </div><br><br><br>
-         <div class="row">
+         <div id="partnerimg1" class="row">
             <div class="col-sm-2 col-sm-offset-1">
                 <img src="img/face.jpg" class="img-responsive img-circle" width="60%" height="auto" style="margin:auto;"/><br>
             </div>
@@ -211,7 +210,7 @@
                 <img src="img/face.jpg" class="img-responsive img-circle" width="60%" height="auto" style="margin:auto;"/><br>
             </div>
         </div><br><br>
-        <div class="row">
+        <div id="partnerimg2" class="row">
             <div class="col-sm-2 col-sm-offset-1">
                 <br>
                 <img src="img/face.jpg" class="img-responsive img-circle" width="60%" height="auto" style="margin:auto;"/><br>
@@ -293,12 +292,12 @@
                 <div class="col-sm-offset-2 col-sm-8" style="padding-top:20px;padding-bottom:20px;padding-left:30px;">
                     <h2>Social Media</h2><br>
                     <div class="row">
-                        <div class="social col-sm-2"><img src="img/facebook.png" class="img-responsive" width="300px" style="margin:auto;"/></div>
-                        <div class="social col-sm-2"><img src="img/google+.png" class="img-responsive"  style="margin:auto;"/></div>
-                        <div class="social col-sm-2"><img src="img/utube.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
-                        <div class="social col-sm-2"><img src="img/twitter.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
-                        <div class="social col-sm-2"><img src="img/instagram.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
-                        <div class="social col-sm-2"><img src="img/web.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/facebook.png" class="img-responsive"  style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/google+.png" class="img-responsive"  style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/utube.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/twitter.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/instagram.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
+                        <div class="social col-xs-2"><img src="img/web.png" class="img-responsive" height="auto" style="margin:auto;"/></div>
                     </div>
                 </div>
             </div>
@@ -338,6 +337,21 @@
            }
            });
         });
+        
+        //for changing border of navbar
+          $(document).ready(function(){       
+       var scroll_start = 0;
+       var startchange = $(".navbar-inverse");
+       var offset = startchange.offset();
+       $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > offset.top) {
+              $('.navbar-inverse').css('border-color', 'rgba(34,34,34,0)');
+           } else {
+              $('.navbar-inverse').css('border-color', '#dff0d8'); 
+           }
+           });
+        });
     
     //for animations    
             window.sr = ScrollReveal({ reset: false });
@@ -347,6 +361,8 @@
             sr.reveal('#numb2,#numb4', { duration: 1000,origin: 'right',distance: '200px',scale: 1 });
             sr.reveal('#lp1,#lp2,#lp3,#lp4', { duration: 2000,scale: 1 });
             sr.reveal('.social', { duration: 1000,scale: 1 });
+            sr.reveal('#partners img', { duration: 1500,scale: 1 });
+            
         </script>
 
     <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
