@@ -629,10 +629,73 @@ How it WOrks css
     margin-bottom: 20px;
  }
  h4.benefits_para{
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-align: justify;
  }
  .benefits_row{
     padding-top: 70px;
  }
+ #PED{
+    padding-top: 40px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.PED_row{
+    padding-top: 40px;
+ }
+  h3.for_dash_PED::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 13%;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+   
+ }
+ h4.PED_para{
+    font-size: 20px;
+    color: #333333;
+    text-align: justify;
+    margin-left: -15px;
+    margin-right: -15px;
+ }
+ .btn_tryblip:hover {
+    color: #08c;
+    background: white;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, .25);
+    border: 1px solid #08c;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    text-decoration:none;
+}
+.btn_tryblip {
+    
+    padding: 1.2% 2.6%;
+    margin-bottom: 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 20px;
+    color: #f1f1f1;
+    text-align: center;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f26534;
+    border: 1px solid #e7e7e7;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    border-radius: 1%;
+    margin-top: 30px;
+}
+.PED_heading{
+    font-size: 22px;
+    font-weight: bold;
+    color: #333333;
+}
