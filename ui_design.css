@@ -639,14 +639,14 @@ How it WOrks css
     padding-top: 70px;
  }
  #PED{
-    padding-top: 40px;
+    padding-top: 30px;
     
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
 }
 .PED_row{
-    padding-top: 40px;
+    padding-top: 35px;
  }
   h3.for_dash_PED::after {
     content: "";
@@ -694,7 +694,7 @@ How it WOrks css
     -webkit-border-radius: 1%;
     -moz-border-radius: 1%;
     border-radius: 1%;
-    margin-top: 30px;
+    margin-top: 25px;
 }
 .PED_heading{
     font-size: 22px;
