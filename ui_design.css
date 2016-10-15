@@ -9,6 +9,10 @@ body, html {
     height:100%;
     font-family: Montserrat;
 }
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 #nav{
 transition-duration: 1s;
 z-index: 2000;
@@ -363,12 +367,12 @@ New Landing Css
     background-size: cover;
 }
 .back_image1{
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
 }
 .back_image2{
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 450px;
 }
 #section04{
     width:100%;
@@ -433,40 +437,45 @@ New Landing Css
     margin-top: 3%;
  } 
 .section04_paragraph{
-    font-size: 1.3em;
+    font-family: Raleway;
+    font-size: 1.2em;
     padding-top: 5%;
     text-align: justify;
 }
 
-
-.btnflt3:hover {
-    color: #08c;
-    background: #e7e7e7;
-    text-shadow: 0 1px 0px rgba(255, 255, 255, .25);
-    border: 1px solid #08c;
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    text-decoration:none;
-}
 .btnflt3 {
     display: inline-block;
     padding: 3.5% 10%;
     margin-bottom: 0;
     font-size: 1em;
     line-height: 20px;
-    color: #f1f1f1;
+     cursor: pointer;
     text-align: center;
-    text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
+    color: #08c;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, .25);    
+
     vertical-align: middle;
-    cursor: pointer;
+    background: #e7e7e7;
+
+     border: 1px solid #08c;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    text-decoration:none;
+}
+
+.btnflt3:hover {
+    color: #f1f1f1;
     background-color: #08c;
+
+    text-shadow: 0 1px 0px rgba(255, 255, 255, .125);
     border: 1px solid #e7e7e7;
     -webkit-border-radius: 1%;
     -moz-border-radius: 1%;
     border-radius: 1%;
 }
+
 .carousel_row{
     margin: 12% -30% 0% -30%;
 
@@ -519,8 +528,8 @@ New Landing Css
 }
 .category_cards:hover { 
     background-color: #e6e9ed;
-    padding: 3% 5% 8% 5% ;
-    transition : .8s ease;
+    padding: 3% 5% 6% 5% ;
+    transition : .6s ease;
 
 }
 
@@ -548,6 +557,7 @@ h3.section05_subheadings::after {
     margin-top: 3%;
  }
  .section05_paragraph{
+    font-family: Raleway;
     font-size: 1.1em;
     padding-top: 5%;
     text-align: justify;
