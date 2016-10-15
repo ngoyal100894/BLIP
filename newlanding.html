@@ -63,11 +63,11 @@
       </div>
       
       <div class = "row"style = " margin-top: 35px; overflow:hidden;">
-        <div class = "col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
+        <div id = "mobile_img" class = "col-xs-8 col-xs-offset-2 col-sm-5 col-sm-offset-0">
           <img src="img/backgroundsection2pic.png" class ="back_image1 img-responsive">
         </div>
         <div class = "col-xs-2 col-sm-2"></div>
-        <div class = "col-sm-5">
+        <div id = "laptop_img" class = "col-sm-5">
           <img src="img/laptop.png"class ="back_image2 img-responsive">
         </div>
       </div>
@@ -78,7 +78,7 @@
 
     <section id = "section04">
       <div class = "col-sm-1"></div>
-      <div class = "col-xs-12 col-sm-4 section04_div">
+      <div id = "advertiser_div" class = "col-xs-12 col-sm-4 section04_div">
         <div class = "section04_icon_div">
           <p><span class="advertiser_icon"><img src="img/4.png"class ="advertiser_image"></span></p>
         </div>
@@ -157,7 +157,7 @@
 
       <div class = "col-sm-2 "></div>
 
-      <div class = "col-xs-12 col-sm-4 section04_div">
+      <div id = "publisher_div" class = "col-xs-12 col-sm-4 section04_div">
         <div class = "section04_icon_div">
           <p><span class="publisher_icon"><img src="img/5.png"class ="publisher_image"></span></p>
         </div>
@@ -371,12 +371,13 @@
             window.sr = ScrollReveal({ reset: false });
 
             sr.reveal('.bouncingphone', { duration: 1000,origin: 'bottom',distance: '100px',scale: 1 });
-            sr.reveal('#numb1,#numb3', { duration: 1000,origin: 'left',distance: '200px',scale: 1 });
-            sr.reveal('#numb2,#numb4', { duration: 1000,origin: 'right',distance: '200px',scale: 1 });
+            sr.reveal('#mobile_img', { duration: 1000,origin: 'left',distance: '200px',scale: 1 });
+            sr.reveal('#laptop_img', { duration: 1000,origin: 'right',distance: '200px',scale: 1 });
             sr.reveal('#lp1,#lp2,#lp3,#lp4', { duration: 2000,scale: 1 });
             sr.reveal('.social', { duration: 1000,scale: 1 });
-            sr.reveal('#partners img', { duration: 1500,scale: 1 });
-            sr.reveal('.stand', { duration: 1000,scale: 1 });
+            sr.reveal('#advertiser_div', { duration: 1500,scale: 1 });
+            sr.reveal('#publisher_div', { duration: 1500,scale: 1 });
+            sr.reveal('.category_cards', { duration: 1000,scale: 1 });
             sr.reveal('#mobileAds .row', { duration: 1000,scale: 1 });
         
     //number updating animation
@@ -386,7 +387,7 @@
             time: 1000 // the speed time in ms
             });
             });
-        
+       
 
         </script>
 
