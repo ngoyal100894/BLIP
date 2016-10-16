@@ -26,10 +26,14 @@ z-index: 2000;
   border: none;
   padding: 0; 
 }
-#head {
+#head{
     position: relative;
     width:100%;
     height: 80%;
+    background-image: url(img/girl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .background-wrap {
@@ -654,6 +658,7 @@ How it WOrks css
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
+    position: relative;
 }
 .icon_benefits{
     padding: 8%;
@@ -682,14 +687,23 @@ How it WOrks css
     margin-bottom: 20px;
  }
  h4.benefits_para{
-    font-size: 24px;
+
+    font-size: 19px;
+    line-height: 1.4em;
     color: white;
     text-align: justify;
     margin-left: -15px;
     margin-right: -15px;
+    margin-top: 20px;
+    font-weight: 600;
  }
  .benefits_row{
     padding-top: 70px;
+ }
+ #benefits_howitworks .hands_div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
  }
  #PED{
     padding-top: 40px;
@@ -699,8 +713,9 @@ How it WOrks css
     height: 100%;
 }
 .PED_row{
-    padding-top: px;
+    padding-top: 20px;
  }
+
   h3.for_dash_PED::after {
     content: "";
     display: block;
@@ -713,7 +728,8 @@ How it WOrks css
    
  }
  h4.PED_para{
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 1.4em;
     color: #333333;
     text-align: justify;
     margin-left: -15px;
@@ -765,15 +781,16 @@ How it WOrks css
 }
 .calculator_heading{
     color: white;
-    font-size: 56px;
+    font-size: 36px;
     font-weight: bold;
     text-align: justify;
 }
 .calculator_subheading{
     color: white;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 1.2em;
     text-align: justify;
-    margin-top: -65px;
+    margin-top: -35px;
     margin-bottom: 60px;
 }
 
@@ -785,7 +802,8 @@ How it WOrks css
 }
 .calc_line{
     color: white;
-    font-size: 28px;
+    font-size: 24px;
+    line-height: 1.2em;
     text-align: justify;
     margin-top: 60px;
     width: 100%;
@@ -804,16 +822,38 @@ How it WOrks css
   display: inline-block;
   width: 100%;
 }
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-right:  24px;
+    padding-left: 24px;
+    font-size: 14px;
+    /* line-height: 1.64466; */
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
 #api{
     padding-top: 0px;
     
-    background-image: url(img/api);
+    background-image: url(img/api.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90%;
 }
  h4.api_para{
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 1.2em;
     color: white;
     text-align: justify;
     margin-left: -15px;
