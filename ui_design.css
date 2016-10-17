@@ -866,3 +866,35 @@ How it WOrks css
     opacity: .8;
 
  }
+ /*********************************\
+ Page3
+ **********************************/
+
+ .heading_howitworks{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+ }
+ .heading_howitworks:after{
+    content: "";
+    display: block;
+    position: relative;
+    height: 5px;
+    width: 3%;
+    background-color: #333333;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+ }
+ #process_flow{
+    width:100%;
+    
+    height: 100%;
+    background-color: #f7f7f7;
+    background-image: url(img/process_flow.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    
+}  
