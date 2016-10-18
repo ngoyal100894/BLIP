@@ -908,6 +908,17 @@ How it WOrks css
     margin: auto;
     margin-top: 2%;
  }
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    .padd_ipad_howitworks{
+        padding: 0px 40px !important;
+    }
+
+    #audience1,#audience2,#audience3,#audience4{
+        height: 40%;
+        
+    }
+}
  #process_flow{
     width:100%;
     
@@ -919,4 +930,11 @@ How it WOrks css
     background-position: bottom;
 
     
-}  
+} 
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    #process_flow{
+        height: 60%;
+        background-size: 80%;
+        background-position: center;
+    }
+} 
