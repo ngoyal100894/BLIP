@@ -686,6 +686,22 @@ How it WOrks css
     bottom: 0;
     width: 100%;
  }
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    #benefits_howitworks{
+        height: 60%;
+        padding-top: 50px;
+    }
+    .benefits_row{
+        padding-top: 40px;
+        padding-left: 60px;
+    }
+    .hands_div img{
+        width: 75% !important;
+    }
+    .col-padd_rmv{
+        padding: 0 !important;
+    }
+}
  #PED{
     padding-top: 40px;
     
@@ -750,6 +766,18 @@ How it WOrks css
     font-size: 22px;
     font-weight: bold;
     color: #333333;
+}
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    #PED{
+        height: 70%;
+    }
+    .PED_row{
+        padding-top: 60px;
+        padding-left: 50px;
+    }
+    .btn_tryblip{
+        margin-top: 50px;
+    }
 }
 #calculator{
     padding-top: 60px;
@@ -824,6 +852,11 @@ How it WOrks css
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+ @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    #calculator{
+        height: 60%;
+    }
+}
 #api{
     padding-top: 0px;
     
@@ -847,6 +880,14 @@ How it WOrks css
     opacity: .8;
 
  }
+  @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
+    #api{
+        height: 60%;
+    }
+    #blue_bg{
+        padding-top: 50px;
+    }
+}
  /*********************************\
  Page3
  **********************************/
