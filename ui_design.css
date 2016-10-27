@@ -71,6 +71,21 @@ z-index: 2000;
     letter-spacing: 3px;
     color: #aaa;
 }
+@media only screen and (max-device-width: 480px){
+    .content h1{
+        font-size: 12vw;
+        padding-top: 30%;
+    }
+    .background-wrap{
+        display: none;
+    }
+    .content p{
+        font-size: 4vw;
+        padding : 10px 30px;
+    }
+}
+  
+  
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     
     #video-bg-elem {
@@ -325,6 +340,13 @@ New Landing Css
     margin-top: 35px; 
     overflow:hidden;
 }
+@media only screen and (max-device-width: 480px){
+    .section02_text{
+        font-size: 1.3em;
+        text-align: justify;
+    }
+
+}
 
 @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     #section02{
@@ -558,11 +580,13 @@ h3.section05_subheadings::after {
 .category_cards:hover h3.section05_subheadings::after{
     display: block;
 }
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px){
     #section05{
-        height: 100%;
+        height: 80%;
     }
+
 }
+
 #section06{
     width:100%;
     background-color: red;
@@ -686,6 +710,21 @@ How it WOrks css
     bottom: 0;
     width: 100%;
  }
+ @media only screen and (max-device-width: 480px){
+    #benefits_howitworks{
+        height: 120%;
+    }
+    .benefits_row{
+        padding-top: 0%;
+    }
+    .hands_div img{
+        width: 85%;
+    }
+    .col-bottom-pad-mob{
+        padding-bottom: 5%;
+    }
+
+}
  @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     #benefits_howitworks{
         height: 60%;
@@ -702,6 +741,7 @@ How it WOrks css
         padding: 0 !important;
     }
 }
+
  #PED{
     padding-top: 40px;
     
@@ -766,6 +806,19 @@ How it WOrks css
     font-size: 22px;
     font-weight: bold;
     color: #333333;
+}
+ @media only screen and (max-device-width: 480px){
+
+    #PED{
+        height: 180%;
+    }
+    #PED .row h1{
+        padding: 0px 5%;
+    }
+    .PED_para{
+        padding-bottom: 5%;
+    }
+
 }
  @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     #PED{
@@ -852,6 +905,24 @@ How it WOrks css
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
+ @media only screen and (max-device-width: 480px){
+
+    #calculator{
+        height: 90%;
+        padding: 10% 5%;
+    }
+    .calculator_subheading{
+        font-size: 5vw;
+        line-height: 1.4em;
+        margin-top: -10%;
+        margin-bottom: 10%;
+    }
+    .calc_line{
+        font-size: 5vw;
+        line-height: 1.4em;
+        margin-top: 0px;
+    }
+}
  @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     #calculator{
         height: 60%;
@@ -873,6 +944,7 @@ How it WOrks css
     margin-left: -15px;
     margin-right: -15px;
  }
+
  #blue_bg{
     background-color:#350080;
     height: 100%;
@@ -880,6 +952,24 @@ How it WOrks css
     opacity: .8;
 
  }
+  @media only screen and (max-device-width: 480px){
+
+    #api{
+        height: 130%;
+    }
+    #api .row h1{
+        padding: 0px;
+    }
+    h4.api_para{
+        padding-bottom: 10%;
+        font-size: 4.5vw;
+        line-height: 1.5em;
+    }
+    h3.for_dash:after{
+        height: 10%;
+    }
+
+}
   @media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
     #api{
         height: 60%;
