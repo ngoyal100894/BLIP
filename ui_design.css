@@ -1009,6 +1009,30 @@ How it WOrks css
         
     }
 }
+
+
+    #audience1,#audience2,#audience3,#audience4{
+        height: 40%;
+        padding: 0px 140px;
+        
+    } 
+@media only screen and (max-device-width: 480px){
+    #audience1,#audience2,#audience3,#audience4{
+        height: 80%;
+        padding: 0px;
+        
+    }
+    #lp1,#lp2,#lp3,#lp4{
+        display: none;
+    }
+    #process_flow{
+        background-size: 100%!important;
+        background-position: bottom!important;
+        height: 75%!important;
+
+    }
+}   
+
  #process_flow{
     width:100%;
     
